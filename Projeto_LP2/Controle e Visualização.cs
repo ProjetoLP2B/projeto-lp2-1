@@ -45,8 +45,8 @@ namespace Projeto_LP2
         private void btn_AddControlView_Click(object sender, EventArgs e)
         {
             this.Hide();
-            var nova_janela = new CadItemIndicador();
-            nova_janela.ShowDialog();
+            var nova_janela1 = new CadItemIndicador();
+            nova_janela1.ShowDialog();
         }
     }
 }
