@@ -126,9 +126,9 @@
             this.erroLogin.ForeColor = System.Drawing.Color.Red;
             this.erroLogin.Location = new System.Drawing.Point(332, 181);
             this.erroLogin.Name = "erroLogin";
-            this.erroLogin.Size = new System.Drawing.Size(124, 13);
+            this.erroLogin.Size = new System.Drawing.Size(103, 13);
             this.erroLogin.TabIndex = 8;
-            this.erroLogin.Text = "usuário/senha incorretos";
+            this.erroLogin.Text = "user = 1 / senha = 1";
             this.erroLogin.Visible = false;
             // 
             // Login

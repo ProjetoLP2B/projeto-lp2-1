@@ -38,7 +38,7 @@ namespace Projeto_LP2
         private void gerenciar_dados_Click(object sender, EventArgs e)
         {
             this.Hide();
-            var lol = new CadIndicadores();
+            var lol = new Controle_e_Visualização_com_Tipo();
             lol.ShowDialog();
 
         }
@@ -46,7 +46,7 @@ namespace Projeto_LP2
         private void gerItem_Click(object sender, EventArgs e)
         {
             this.Hide();
-            var lol = new CadItemIndicador();
+            var lol = new ControleVisualização();
             lol.ShowDialog();
 
         }
