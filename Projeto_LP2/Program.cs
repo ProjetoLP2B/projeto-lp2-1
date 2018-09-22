@@ -21,7 +21,7 @@ namespace Projeto_LP2
             Application.Run(new Cadastro());
 
 
-            /*TESTANDO*/
+            /*TESTANDO 2  renan*/
         }
     }
 }
