@@ -131,11 +131,11 @@
     <Compile Include="Nova Relação Entre Itens Indicadores.Designer.cs">
       <DependentUpon>Nova Relação Entre Itens Indicadores.cs</DependentUpon>
     </Compile>
-    <Compile Include="Novos Projetos.cs">
+    <Compile Include="NovosProjetos.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Novos Projetos.Designer.cs">
-      <DependentUpon>Novos Projetos.cs</DependentUpon>
+    <Compile Include="NovosProjetos.Designer.cs">
+      <DependentUpon>NovosProjetos.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -172,8 +172,8 @@
     <EmbeddedResource Include="Nova Relação Entre Itens Indicadores.resx">
       <DependentUpon>Nova Relação Entre Itens Indicadores.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Novos Projetos.resx">
-      <DependentUpon>Novos Projetos.cs</DependentUpon>
+    <EmbeddedResource Include="NovosProjetos.resx">
+      <DependentUpon>NovosProjetos.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

@@ -19,7 +19,9 @@ namespace Projeto_LP2
 
         private void btn_AddControlView_Click(object sender, EventArgs e)
         {
-
+            this.Hide();
+            var nova_janela = new CadIndicadores();
+            nova_janela.ShowDialog();
         }
 
         private void lstViewControleTipo_SelectedIndexChanged(object sender, EventArgs e)
