@@ -20,6 +20,8 @@ namespace Projeto_LP2
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new Cadastro());
 
+
+            /*TESTANDO*/
         }
     }
 }
