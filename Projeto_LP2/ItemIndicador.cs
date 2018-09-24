@@ -16,16 +16,6 @@ namespace Projeto_LP2
         {
             InitializeComponent();
         }
-
-        private void ItemIndicador_Load(object sender, EventArgs e)
-        {
-
-        }
-
-        private void btn_AlterarItemIndicadores_Click(object sender, EventArgs e)
-        {
-
-        }
     }
  
 }

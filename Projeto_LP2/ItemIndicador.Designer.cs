@@ -64,7 +64,6 @@
             this.btn_AlterarItemIndicadores.TabIndex = 6;
             this.btn_AlterarItemIndicadores.Text = "Alterar";
             this.btn_AlterarItemIndicadores.UseVisualStyleBackColor = true;
-            this.btn_AlterarItemIndicadores.Click += new System.EventHandler(this.btn_AlterarItemIndicadores_Click);
             // 
             // btn_InserirItemIndicadores
             // 
@@ -88,7 +87,6 @@
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "ItemIndicador";
             this.Text = "Item Indicador";
-            this.Load += new System.EventHandler(this.ItemIndicador_Load);
             this.ResumeLayout(false);
 
         }

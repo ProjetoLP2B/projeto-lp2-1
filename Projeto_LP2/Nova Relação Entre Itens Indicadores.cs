@@ -16,10 +16,5 @@ namespace Projeto_LP2
         {
             InitializeComponent();
         }
-
-        private void lstView_DesafiosNovaRel_SelectedIndexChanged(object sender, EventArgs e)
-        {
-
-        }
     }
 }

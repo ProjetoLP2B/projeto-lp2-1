@@ -17,17 +17,13 @@ namespace Projeto_LP2
             InitializeComponent();
         }
 
-        private void Novos_Projetos_Load(object sender, EventArgs e)
-        {
 
+        private void remover_click(object sender, EventArgs e)
+        {
+            listView1.Items.RemoveAt(listView1.SelectedIndices[0]);
         }
 
-        private void cmb_PropriedadesNovoProj_SelectedIndexChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void button3_Click(object sender, EventArgs e)
+        private void selecionar_Click(object sender, EventArgs e)
         {
             var texto = comboBox.Text;
             comboBox.ResetText();
@@ -36,7 +32,7 @@ namespace Projeto_LP2
 
             if (texto != "")
             {
-                for(int i = 0; i < listView1.Items.Count; i++)
+                for (int i = 0; i < listView1.Items.Count; i++)
                 {
                     if (texto == listView1.Items[i].SubItems[1].Text)
                     {
@@ -52,27 +48,6 @@ namespace Projeto_LP2
             }
             else
                 MessageBox.Show("Erro!");
-
-        }
-
-        private void listView1_SelectedIndexChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void exibirRelatorio_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void remover_click(object sender, EventArgs e)
-        {
-            listView1.Items.RemoveAt(listView1.SelectedIndices[0]);
-        }
-
-        private void cmbNovaSelecao(object sender, EventArgs e)
-        {
-
         }
     }
 }

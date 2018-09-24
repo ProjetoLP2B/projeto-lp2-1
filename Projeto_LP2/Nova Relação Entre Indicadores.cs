@@ -16,15 +16,5 @@ namespace Projeto_LP2
         {
             InitializeComponent();
         }
-
-        private void btn_OKNovaRelIndi_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void btn_CancelarNovaRelIndi_Click(object sender, EventArgs e)
-        {
-
-        }
     }
 }

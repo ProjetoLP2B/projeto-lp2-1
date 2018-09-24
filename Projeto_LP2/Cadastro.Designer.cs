@@ -56,7 +56,6 @@
             this.label1.Size = new System.Drawing.Size(68, 25);
             this.label1.TabIndex = 0;
             this.label1.Text = "Nome";
-            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // label2
             // 
@@ -67,7 +66,6 @@
             this.label2.Size = new System.Drawing.Size(74, 25);
             this.label2.TabIndex = 1;
             this.label2.Text = "Senha";
-            this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
             // label3
             // 
@@ -88,7 +86,6 @@
             this.label4.Size = new System.Drawing.Size(122, 25);
             this.label4.TabIndex = 3;
             this.label4.Text = "Sobrenome";
-            this.label4.Click += new System.EventHandler(this.label4_Click);
             // 
             // label5
             // 
@@ -106,7 +103,6 @@
             this.txt_NomeCadastro.Name = "txt_NomeCadastro";
             this.txt_NomeCadastro.Size = new System.Drawing.Size(195, 20);
             this.txt_NomeCadastro.TabIndex = 5;
-            this.txt_NomeCadastro.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // txt_SobrenomeCadastro
             // 
@@ -121,7 +117,6 @@
             this.txt_EmailCadastro.Name = "txt_EmailCadastro";
             this.txt_EmailCadastro.Size = new System.Drawing.Size(262, 20);
             this.txt_EmailCadastro.TabIndex = 7;
-            this.txt_EmailCadastro.TextChanged += new System.EventHandler(this.textBox3_TextChanged);
             // 
             // txt_SenhaCadastro
             // 
@@ -129,7 +124,6 @@
             this.txt_SenhaCadastro.Name = "txt_SenhaCadastro";
             this.txt_SenhaCadastro.Size = new System.Drawing.Size(195, 20);
             this.txt_SenhaCadastro.TabIndex = 8;
-            this.txt_SenhaCadastro.TextChanged += new System.EventHandler(this.textBox4_TextChanged);
             // 
             // txt_ConfirmeSenhaCadastro
             // 
@@ -137,7 +131,6 @@
             this.txt_ConfirmeSenhaCadastro.Name = "txt_ConfirmeSenhaCadastro";
             this.txt_ConfirmeSenhaCadastro.Size = new System.Drawing.Size(195, 20);
             this.txt_ConfirmeSenhaCadastro.TabIndex = 9;
-            this.txt_ConfirmeSenhaCadastro.TextChanged += new System.EventHandler(this.textBox5_TextChanged);
             // 
             // btn_CadastrarCadastro
             // 
@@ -173,7 +166,6 @@
             this.txt_UsuarioCadastro.Name = "txt_UsuarioCadastro";
             this.txt_UsuarioCadastro.Size = new System.Drawing.Size(262, 20);
             this.txt_UsuarioCadastro.TabIndex = 15;
-            this.txt_UsuarioCadastro.TextChanged += new System.EventHandler(this.txt_UsuarioCadastro_TextChanged);
             // 
             // label6
             // 
@@ -184,7 +176,6 @@
             this.label6.Size = new System.Drawing.Size(86, 25);
             this.label6.TabIndex = 14;
             this.label6.Text = "Usuario";
-            this.label6.Click += new System.EventHandler(this.label6_Click);
             // 
             // Cadastro
             // 

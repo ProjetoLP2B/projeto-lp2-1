@@ -57,7 +57,6 @@
             this.lstViewControleTipo.TabIndex = 1;
             this.lstViewControleTipo.UseCompatibleStateImageBehavior = false;
             this.lstViewControleTipo.View = System.Windows.Forms.View.Details;
-            this.lstViewControleTipo.SelectedIndexChanged += new System.EventHandler(this.lstViewControleTipo_SelectedIndexChanged);
             // 
             // ID
             // 
@@ -113,7 +112,7 @@
             this.btn_AddControlView.TabIndex = 36;
             this.btn_AddControlView.Text = "Adicionar";
             this.btn_AddControlView.UseVisualStyleBackColor = true;
-            this.btn_AddControlView.Click += new System.EventHandler(this.btn_AddControlView_Click);
+            this.btn_AddControlView.Click += new System.EventHandler(this.add_Click);
             // 
             // btn_DeletarControlView
             // 

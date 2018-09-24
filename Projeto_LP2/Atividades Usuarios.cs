@@ -17,11 +17,6 @@ namespace Projeto_LP2
             InitializeComponent();
         }
 
-        private void pictureBox1_Click(object sender, EventArgs e)
-        {
-
-        }
-
         private void Atividades_Usuarios_Load(object sender, EventArgs e)
         {
 

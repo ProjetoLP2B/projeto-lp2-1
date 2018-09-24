@@ -102,7 +102,6 @@
             this.btn_CancelarNovaRelIndi.TabIndex = 11;
             this.btn_CancelarNovaRelIndi.Text = "Cancelar";
             this.btn_CancelarNovaRelIndi.UseVisualStyleBackColor = true;
-            this.btn_CancelarNovaRelIndi.Click += new System.EventHandler(this.btn_CancelarNovaRelIndi_Click);
             // 
             // btn_OKNovaRelIndi
             // 
@@ -113,7 +112,6 @@
             this.btn_OKNovaRelIndi.TabIndex = 10;
             this.btn_OKNovaRelIndi.Text = "Ok";
             this.btn_OKNovaRelIndi.UseVisualStyleBackColor = true;
-            this.btn_OKNovaRelIndi.Click += new System.EventHandler(this.btn_OKNovaRelIndi_Click);
             // 
             // Nova_Relação_Entre_Indicadores
             // 

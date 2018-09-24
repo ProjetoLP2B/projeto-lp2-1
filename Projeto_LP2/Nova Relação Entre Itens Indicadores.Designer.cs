@@ -68,7 +68,6 @@
             this.lstView_DesafiosNovaRel.TabIndex = 3;
             this.lstView_DesafiosNovaRel.UseCompatibleStateImageBehavior = false;
             this.lstView_DesafiosNovaRel.View = System.Windows.Forms.View.Details;
-            this.lstView_DesafiosNovaRel.SelectedIndexChanged += new System.EventHandler(this.lstView_DesafiosNovaRel_SelectedIndexChanged);
             // 
             // lstView_PropriedadeNovaRel
             // 

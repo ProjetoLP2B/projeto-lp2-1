@@ -70,7 +70,7 @@
             this.btn_CancelarCadItemIndicadores.TabIndex = 31;
             this.btn_CancelarCadItemIndicadores.Text = "Cancelar";
             this.btn_CancelarCadItemIndicadores.UseVisualStyleBackColor = true;
-            this.btn_CancelarCadItemIndicadores.Click += new System.EventHandler(this.btn_CancelarCadIndicadores_Click);
+            this.btn_CancelarCadItemIndicadores.Click += new System.EventHandler(this.cancelar_Click);
             // 
             // btn_OKCadItemIndicadores
             // 
@@ -81,7 +81,7 @@
             this.btn_OKCadItemIndicadores.TabIndex = 30;
             this.btn_OKCadItemIndicadores.Text = "Ok";
             this.btn_OKCadItemIndicadores.UseVisualStyleBackColor = true;
-            this.btn_OKCadItemIndicadores.Click += new System.EventHandler(this.btn_OKCadIndicadores_Click);
+            this.btn_OKCadItemIndicadores.Click += new System.EventHandler(this.ok_Click);
             // 
             // txt_ObsCadItemIndicadores
             // 
@@ -90,7 +90,6 @@
             this.txt_ObsCadItemIndicadores.Name = "txt_ObsCadItemIndicadores";
             this.txt_ObsCadItemIndicadores.Size = new System.Drawing.Size(249, 88);
             this.txt_ObsCadItemIndicadores.TabIndex = 29;
-            this.txt_ObsCadItemIndicadores.TextChanged += new System.EventHandler(this.txt_ObsCadIndicadores_TextChanged);
             // 
             // lbl_ObsCadItemIndicadores
             // 
@@ -101,7 +100,6 @@
             this.lbl_ObsCadItemIndicadores.Size = new System.Drawing.Size(89, 18);
             this.lbl_ObsCadItemIndicadores.TabIndex = 28;
             this.lbl_ObsCadItemIndicadores.Text = "Observação";
-            this.lbl_ObsCadItemIndicadores.Click += new System.EventHandler(this.lbl_ObsCadIndicadores_Click);
             // 
             // txt_DescricaoCadItemIndicadores
             // 
@@ -110,7 +108,6 @@
             this.txt_DescricaoCadItemIndicadores.Name = "txt_DescricaoCadItemIndicadores";
             this.txt_DescricaoCadItemIndicadores.Size = new System.Drawing.Size(249, 81);
             this.txt_DescricaoCadItemIndicadores.TabIndex = 27;
-            this.txt_DescricaoCadItemIndicadores.TextChanged += new System.EventHandler(this.txt_DescricaoCadIndicadores_TextChanged);
             // 
             // lbl_DescricaoCadItemIndicadores
             // 
@@ -121,7 +118,6 @@
             this.lbl_DescricaoCadItemIndicadores.Size = new System.Drawing.Size(76, 18);
             this.lbl_DescricaoCadItemIndicadores.TabIndex = 26;
             this.lbl_DescricaoCadItemIndicadores.Text = "Descrição";
-            this.lbl_DescricaoCadItemIndicadores.Click += new System.EventHandler(this.lbl_DescricaoCadIndicadores_Click);
             // 
             // txt_NomeCadItemIndicadores
             // 
@@ -129,7 +125,6 @@
             this.txt_NomeCadItemIndicadores.Name = "txt_NomeCadItemIndicadores";
             this.txt_NomeCadItemIndicadores.Size = new System.Drawing.Size(248, 20);
             this.txt_NomeCadItemIndicadores.TabIndex = 25;
-            this.txt_NomeCadItemIndicadores.TextChanged += new System.EventHandler(this.txt_NomeCadIndicadores_TextChanged);
             // 
             // lbl_NomeCadItemIndicadores
             // 
@@ -140,7 +135,6 @@
             this.lbl_NomeCadItemIndicadores.Size = new System.Drawing.Size(49, 18);
             this.lbl_NomeCadItemIndicadores.TabIndex = 24;
             this.lbl_NomeCadItemIndicadores.Text = "Nome";
-            this.lbl_NomeCadItemIndicadores.Click += new System.EventHandler(this.lbl_NomeCadIndicadores_Click);
             // 
             // txt_CodigoCadItemIndicadores
             // 
@@ -148,7 +142,6 @@
             this.txt_CodigoCadItemIndicadores.Name = "txt_CodigoCadItemIndicadores";
             this.txt_CodigoCadItemIndicadores.Size = new System.Drawing.Size(100, 20);
             this.txt_CodigoCadItemIndicadores.TabIndex = 23;
-            this.txt_CodigoCadItemIndicadores.TextChanged += new System.EventHandler(this.txt_CodigoCadIndicadores_TextChanged);
             // 
             // lbl_CadCodigoItemIndicadores
             // 
@@ -159,7 +152,6 @@
             this.lbl_CadCodigoItemIndicadores.Size = new System.Drawing.Size(56, 18);
             this.lbl_CadCodigoItemIndicadores.TabIndex = 22;
             this.lbl_CadCodigoItemIndicadores.Text = "Código";
-            this.lbl_CadCodigoItemIndicadores.Click += new System.EventHandler(this.lbl_CodigoCadIndicadores_Click);
             // 
             // CadItemIndicador
             // 
@@ -181,7 +173,6 @@
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "CadItemIndicador";
             this.Text = "Cadastro de Item Indicador";
-            this.Load += new System.EventHandler(this.CadItemIndicador_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

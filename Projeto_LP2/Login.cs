@@ -18,37 +18,9 @@ namespace Projeto_LP2
             InitializeComponent();
         }
         
-        private void textBox1_TextChanged(object sender, EventArgs e)
-        {
 
-        }
-
-        private void label1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void txt_LoginSenha_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void textBox1_TextChanged_1(object sender, EventArgs e)
-        {
-
-        }
-
-        private void button2_Click(object sender, EventArgs e)
-        {
-            Application.Exit();
-        }
 
         private void Login_Load(object sender, EventArgs e)
-        {
-
-        }
-
-        private void txt_SenhaLogin_TextChanged(object sender, EventArgs e)
         {
 
         }
@@ -81,6 +53,11 @@ namespace Projeto_LP2
             var nova_janela = new Cadastro();
             nova_janela.ShowDialog();
 
+        }
+
+        private void sair_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
         }
     }
 }

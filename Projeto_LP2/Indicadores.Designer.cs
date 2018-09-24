@@ -64,7 +64,6 @@
             this.btn_AlterarIndicadores.TabIndex = 2;
             this.btn_AlterarIndicadores.Text = "Alterar";
             this.btn_AlterarIndicadores.UseVisualStyleBackColor = true;
-            this.btn_AlterarIndicadores.Click += new System.EventHandler(this.btn_AlterarIndicadores_Click);
             // 
             // btn_CancelarIndicadores
             // 
@@ -88,7 +87,6 @@
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Indicadores";
             this.Text = "Indicadores";
-            this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
 
         }

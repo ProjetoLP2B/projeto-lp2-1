@@ -50,7 +50,6 @@
             this.lb_LoginUsuário.Size = new System.Drawing.Size(68, 20);
             this.lb_LoginUsuário.TabIndex = 0;
             this.lb_LoginUsuário.Text = "Usuário ";
-            this.lb_LoginUsuário.Click += new System.EventHandler(this.label1_Click);
             // 
             // lb_LoginSenha
             // 
@@ -61,7 +60,6 @@
             this.lb_LoginSenha.Size = new System.Drawing.Size(56, 20);
             this.lb_LoginSenha.TabIndex = 1;
             this.lb_LoginSenha.Text = "Senha";
-            this.lb_LoginSenha.Click += new System.EventHandler(this.txt_LoginSenha_Click);
             // 
             // userCampo
             // 
@@ -69,7 +67,6 @@
             this.userCampo.Name = "userCampo";
             this.userCampo.Size = new System.Drawing.Size(133, 20);
             this.userCampo.TabIndex = 2;
-            this.userCampo.TextChanged += new System.EventHandler(this.textBox1_TextChanged_1);
             // 
             // senhaCampo
             // 
@@ -78,7 +75,6 @@
             this.senhaCampo.PasswordChar = '*';
             this.senhaCampo.Size = new System.Drawing.Size(133, 20);
             this.senhaCampo.TabIndex = 3;
-            this.senhaCampo.TextChanged += new System.EventHandler(this.txt_SenhaLogin_TextChanged);
             // 
             // btn_EntrarLogin
             // 
@@ -98,7 +94,7 @@
             this.btn_SairLogin.TabIndex = 5;
             this.btn_SairLogin.Text = "Sair";
             this.btn_SairLogin.UseVisualStyleBackColor = true;
-            this.btn_SairLogin.Click += new System.EventHandler(this.button2_Click);
+            this.btn_SairLogin.Click += new System.EventHandler(this.sair_Click);
             // 
             // pictureBox1
             // 

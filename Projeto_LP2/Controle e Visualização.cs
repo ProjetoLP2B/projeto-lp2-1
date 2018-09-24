@@ -17,34 +17,10 @@ namespace Projeto_LP2
             InitializeComponent();
         }
 
-        private void ControleVisualização_Load(object sender, EventArgs e)
+
+        private void add_Click(object sender, EventArgs e)
         {
-
-        }
-
-        private void lstViewControle_SelectedIndexChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void btn_RelacaoControlView_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void btn_EditarControlView_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void btn_DeletarControlView_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void btn_AddControlView_Click(object sender, EventArgs e)
-        {
-            this.Hide();
+            //this.Hide();
             var nova_janela1 = new CadItemIndicador();
             nova_janela1.ShowDialog();
         }

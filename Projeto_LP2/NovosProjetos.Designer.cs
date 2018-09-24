@@ -28,10 +28,10 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.ListViewGroup listViewGroup3 = new System.Windows.Forms.ListViewGroup("ListViewGroup", System.Windows.Forms.HorizontalAlignment.Left);
+            System.Windows.Forms.ListViewGroup listViewGroup1 = new System.Windows.Forms.ListViewGroup("ListViewGroup", System.Windows.Forms.HorizontalAlignment.Left);
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.button3 = new System.Windows.Forms.Button();
+            this.selecionar = new System.Windows.Forms.Button();
             this.button4 = new System.Windows.Forms.Button();
             this.txt_NomeProjNovoProj = new System.Windows.Forms.TextBox();
             this.comboBox = new System.Windows.Forms.ComboBox();
@@ -61,16 +61,16 @@
             this.label2.TabIndex = 4;
             this.label2.Text = "Propriedades";
             // 
-            // button3
+            // selecionar
             // 
-            this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button3.Location = new System.Drawing.Point(338, 129);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(97, 32);
-            this.button3.TabIndex = 5;
-            this.button3.Text = "Selecionar";
-            this.button3.UseVisualStyleBackColor = true;
-            this.button3.Click += new System.EventHandler(this.button3_Click);
+            this.selecionar.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.selecionar.Location = new System.Drawing.Point(338, 129);
+            this.selecionar.Name = "selecionar";
+            this.selecionar.Size = new System.Drawing.Size(97, 32);
+            this.selecionar.TabIndex = 5;
+            this.selecionar.Text = "Selecionar";
+            this.selecionar.UseVisualStyleBackColor = true;
+            this.selecionar.Click += new System.EventHandler(this.selecionar_Click);
             // 
             // button4
             // 
@@ -81,7 +81,6 @@
             this.button4.TabIndex = 6;
             this.button4.Text = "Exibir Relatorio";
             this.button4.UseVisualStyleBackColor = true;
-            this.button4.Click += new System.EventHandler(this.exibirRelatorio_Click);
             // 
             // txt_NomeProjNovoProj
             // 
@@ -101,24 +100,22 @@
             this.comboBox.Name = "comboBox";
             this.comboBox.Size = new System.Drawing.Size(235, 21);
             this.comboBox.TabIndex = 9;
-            this.comboBox.SelectedIndexChanged += new System.EventHandler(this.cmbNovaSelecao);
             // 
             // listView1
             // 
             this.listView1.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
             this.ID,
             this.Propriedade});
-            listViewGroup3.Header = "ListViewGroup";
-            listViewGroup3.Name = "listViewGroup1";
+            listViewGroup1.Header = "ListViewGroup";
+            listViewGroup1.Name = "listViewGroup1";
             this.listView1.Groups.AddRange(new System.Windows.Forms.ListViewGroup[] {
-            listViewGroup3});
+            listViewGroup1});
             this.listView1.Location = new System.Drawing.Point(76, 194);
             this.listView1.Name = "listView1";
             this.listView1.Size = new System.Drawing.Size(236, 205);
             this.listView1.TabIndex = 11;
             this.listView1.UseCompatibleStateImageBehavior = false;
             this.listView1.View = System.Windows.Forms.View.Details;
-            this.listView1.SelectedIndexChanged += new System.EventHandler(this.listView1_SelectedIndexChanged);
             // 
             // ID
             // 
@@ -150,12 +147,11 @@
             this.Controls.Add(this.comboBox);
             this.Controls.Add(this.txt_NomeProjNovoProj);
             this.Controls.Add(this.button4);
-            this.Controls.Add(this.button3);
+            this.Controls.Add(this.selecionar);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Name = "Novos_Projetos";
             this.Text = "Novos_Projetos";
-            this.Load += new System.EventHandler(this.Novos_Projetos_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -164,7 +160,7 @@
         #endregion
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Button selecionar;
         private System.Windows.Forms.Button button4;
         private System.Windows.Forms.TextBox txt_NomeProjNovoProj;
         private System.Windows.Forms.ComboBox comboBox;
